@@ -1,0 +1,115 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to right, #fff 50%, black 50%);
+}
+
+/* --------------Inicio Estilos de cabecera */
+
+/* .cabecera {
+    background: rgba(128, 128, 128, 0.856);
+}
+
+.menu ul {
+    display: flex;
+    justify-content: center;
+}
+.menu ul li {
+    list-style: none;
+    margin: 20px ;
+    border-bottom: 2px solid black;
+}
+
+.menu a {
+    font-size: 18PX;
+    text-decoration: none;
+    color: black;
+} */
+
+/* --------------Fin Estilos de cabecera */
+
+/* Inicio de Formulario */
+
+
+.aporte_form {
+    background: rgba(128, 128, 128, 0.856);
+    max-width: 700px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario > p {
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.aporte_grupo {
+    margin: 15px 0;
+}
+
+.aporte_grupo > label {
+    display: inline-block;
+    width: 120px;
+}
+
+.tarjeta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+    "tarjeta tarjeta"
+    "venc    cvv"
+    ".       ."
+    "nombre  nombre";
+}
+
+input, select {
+    height: 25px;
+}
+.tarjeta input:nth-child(1) {
+    grid-area: tarjeta;
+}
+
+.tarjeta input:nth-child(2) {
+    grid-area: venc;
+}
+
+.tarjeta input:nth-child(3) {
+    grid-area: cvv;
+}
+
+.tarjeta input:nth-child(4) {
+    grid-area: nombre;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox > input, .checkbox > label {
+    margin: 15px 5px;
+}
+
+.button {
+    width: 250px;
+    height: 30px;
+    color: #fff;
+    background: black;
+    border: none;
+    cursor: pointer;
+    margin: 15px 0;
+}
+/* Fin de Formulario */
