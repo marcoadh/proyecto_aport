@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/gestion-aportes.css">
+    <title>Gestión de Aportes</title>
+</head>
+<body>
+    <div class="container">
+        <div class="container__gestion">
+
+            <div class="container__gestion--title">
+                <h2>Gestión de aportes <br> a los partidos políticos</h2>
+            </div>
+
+            <div class="container__gestion--subcontainer">
+                <div class="container__gestion--subcontainer-left">
+                    <form action="">
+                        <fieldset>
+                          <legend> Organización Política </legend>
+
+                          <div class="group">
+                            <label for="nombre">Nombres</label><br>
+                            <input type="text" id="nombre" name="nombre">
+                          </div>
+
+                          <div class="group">
+                            <label for="fecha">Fecha Inscripción</label><br>
+                            <input type="date" id="fecha" name="fecha">
+                          </div>
+
+                          <div class="group">
+                            <label for="telefono">Teléfono</label><br>
+                            <input type="text" id="telefono" name="telefono">
+                          </div>
+
+                          <div class="group">
+                            <label for="direccion">Dirección</label><br>
+                            <input type="text" id="direccion" name="direccion">
+                          </div>
+
+                        </fieldset>
+                    </form> 
+                </div>
+
+                <div class="container__gestion--subcontainer-right">
+                    <form action="">
+                        <fieldset>
+
+                          <legend style="color: white;"> Representante Político </legend>
+
+                          <div class="group-right">
+                            <label for="nombre">Nombres</label><br>
+                            <input type="text" id="nombre" name="nombre">
+                          </div>
+
+                          <div class="group-right">
+                            <label for="apellido">Apellidos</label><br>
+                            <input type="text" id="apellido" name="apellido">
+                          </div>
+
+                          <div class="group-right">
+                            <label for="telefono">DNI</label><br>
+                            <input type="text" id="telefono" name="telefono">
+                          </div>
+
+                          <div class="group-right">
+                            <label for="direccion">Correo</label><br>
+                            <input type="text" id="direccion" name="direccion">
+                          </div>
+
+                        </fieldset>
+                    </form> 
+                </div>
+            </div>
+
+            <div class="container__gestion--button">
+                <input class="button" type="submit" value="Registrar">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

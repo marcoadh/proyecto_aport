@@ -1,0 +1,86 @@
+.container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to right, #fff 50%, black 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container__register--form {
+    width: 500px;
+    background: rgba(128, 128, 128, 0.856);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 25px auto;
+}
+
+.container__register--form a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.container__register--form p {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.container__register--form form{
+    display: flex;
+    flex-direction: column;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    margin-right: 15px;
+}
+
+input {
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: white;
+    border-bottom: 1px solid grey;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+
+.selectbox {
+    border-radius: 15px;
+    width: 100%;
+    margin: auto;
+    padding: 8px 12px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.selectbox option {
+    border-radius: 15px;
+}
+
+.button {
+    font-size: 20px;
+    width: 250px;
+    margin: auto;
+    margin-top: 25px;
+    background: black;
+    color: white;
+}
+
+.button:hover {
+    cursor: pointer;
+}

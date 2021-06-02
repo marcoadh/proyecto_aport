@@ -1,0 +1,83 @@
+.container {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to right, #fff 50%, black 50%);
+}
+
+.container__login {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container__login--titulo {
+    background: rgba(128, 128, 128, 0.637);
+    color: white;
+    width: 40%;
+}
+
+.container__login--titulo h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px;
+    font-weight: 100;
+}
+
+.container__login--form{
+    min-width: 300px;
+}
+
+.container__login--form form{
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 500;
+}
+input {
+    margin-bottom: 30px;
+    height: 30px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid grey;
+    background: transparent;
+    outline: none;
+}
+
+.button {
+    background: rgb(165, 160, 159);
+    font-size: 23px;
+    margin: auto;
+    width: 100%;
+    height: 40px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.container__login--options {
+    display: flex;
+    flex-direction: row;
+}
+
+.container__login--options a{
+    text-decoration: none;
+    font-size: 25px;
+    width: 50%;
+    text-align: center;
+}
+
+.container__login--options a:nth-child(1){
+    color: black;
+    margin-right: 25px;
+}
+
+.container__login--options a:nth-child(2){
+    color: white;
+    margin-left: 25px;
+}
+
