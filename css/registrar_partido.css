@@ -3,50 +3,56 @@ body {
     background: linear-gradient(to right, #fff 50%, black 50%);
 }
 
-.container {
+.contenedor {
+    display: flex;
+    flex-direction: column;
     height: 100vh;
 }
 
-.container__gestion {
+.subcontenedor {
+    background: rgba(128, 128, 128, 0.637);
     display: flex;
     flex-direction: column;
-    height: 100%;
-    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 15px;
 }
 
-.container__gestion--title {
-    background: rgba(128, 128, 128, 0.637);
+.subcontenedor a {
     color: white;
-    width: 40%;
-    margin-top: 30px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 5px;
 }
 
-.container__gestion--title h2 {
-    font-size: 3rem;
+.subcontenedor__titulo {
+    margin: 15px auto;
+}
+
+.subcontenedor__titulo h2 {
     text-align: center;
-    margin: 20px;
     font-weight: 100;
+    color: rgb(0, 0, 0);
 }
 
-.container__gestion--subcontainer {
+.gestion {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 20px auto;
 }
 
-.container__gestion--subcontainer-left,
-.container__gestion--subcontainer-right {
+.gestion__izquierda,
+.gestion__derecha {
     width: 500px;
-    margin: 20px;
+    margin: 0 auto;
+    padding: 5px;
 }
 
-.group, .group-right {
+fieldset {
+    min-height: 350px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 5px;
+    justify-content: space-between;
 }
 
 
@@ -65,16 +71,22 @@ input {
     background: white;
     border-bottom: 2px solid grey;
     border-radius: 20px;
-    padding-left: 15px;
 }
 
-.group-right label {
-    color: white;
+.boton {
+    margin: auto;
 }
 
 .button {
     width: 250px;
-    background: grey;
     border-radius: 0;
-    color: white;
+    color: #fff;
+    background: black;
+    border: none;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.nota {
+    margin-top: 20px;
 }
