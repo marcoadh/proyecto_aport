@@ -1,0 +1,28 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to right, #fff 50%, black 50%);
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.botones a {
+    width: 260px;
+    margin: 10px;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    background: rgba(128, 128, 128, 0.952);
+    border-radius: 4px;
+}
